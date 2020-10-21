@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap");
+
+body {
+  background-image: url("/img/bg.png");
+  background-repeat: no-repeat;
+  background-color: rgb(38, 38, 38);
+  width: 1500px;
+  height: 866px;
+  text-align: center;
+}
+header {
+  margin-top: 90px;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #262626;
+  font-size: 90px;
+  line-height: 25px;
+}
+
+header p {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+header p,
+footer p,
+input,
+textarea {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+main {
+  margin-top: 50px;
+  margin-bottom: 117px;
+}
+
+footer {
+  display: block;
+  color: #b9b9b9;
+  background-color: #262626;
+  margin: 0 auto;
+}
+footer p {
+  display: inline-block;
+}
+.love {
+  font-weight: 700;
+  color: #ff2b58;
+}
+form {
+  text-align: left;
+  margin-left: 130px;
+}
+input,
+textarea {
+  display: block;
+  background-color: #5accd2;
+  opacity: 0.502;
+  border: none;
+  padding: 15px;
+}
+input {
+  width: 500px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+textarea {
+  width: 500px;
+  height: 250px;
+}
+textarea:focus {
+  width: 495px;
+  height: 245px;
+}
+input:focus {
+  width: 495px;
+  height: 45px;
+}
+
+input:focus,
+textarea:focus {
+  border-left: 5px solid #355b82;
+  background-color: #00c4c4;
+  outline: none;
+  opacity: none;
+  font-weight: 700;
+  transition: all 0.4s;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #fff;
+  font-size: 20px;
+}
