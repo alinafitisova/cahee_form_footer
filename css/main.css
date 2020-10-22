@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 .container {
-  background-image: url("./img\bg.png");
+  background-image: url("..img\bg.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-color: rgb(38, 38, 38);
