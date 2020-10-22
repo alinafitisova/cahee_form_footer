@@ -1,28 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap");
 
 body {
-  background-image: url("/img/bg.png");
-  background-repeat: no-repeat;
-  background-color: rgb(38, 38, 38);
-  width: 1500px;
-  height: 866px;
   text-align: center;
 }
-header {
-  margin-top: 90px;
+.container {
+  background-image: url("/img/bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgb(38, 38, 38);
+  width: 1200px;
+  height: 696px;
+  margin: 0 auto;
 }
+
+/* header {
+  pading-top: 90px;
+} */
 
 h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: #262626;
-  font-size: 90px;
-  line-height: 25px;
+  font-size: 75px;
+  letter-spacing: -1px;
+  line-height: 102px;
+  padding-top: 57px;
+  margin: 0;
 }
 
 header p {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 13px;
+  line-height: 16px;
 }
 
 header p,
@@ -33,22 +41,7 @@ textarea {
   font-weight: 300;
 }
 main {
-  margin-top: 50px;
-  margin-bottom: 117px;
-}
-
-footer {
-  display: block;
-  color: #b9b9b9;
-  background-color: #262626;
-  margin: 0 auto;
-}
-footer p {
-  display: inline-block;
-}
-.love {
-  font-weight: 700;
-  color: #ff2b58;
+  margin-top: 37px;
 }
 form {
   text-align: left;
@@ -57,35 +50,36 @@ form {
 input,
 textarea {
   display: block;
-  background-color: #5accd2;
+  background-color: #00c4c4;
   opacity: 0.502;
+  color: #fff;
   border: none;
   padding: 15px;
 }
 input {
-  width: 500px;
-  height: 50px;
-  margin-bottom: 20px;
-}
-textarea {
-  width: 500px;
-  height: 250px;
-}
-textarea:focus {
-  width: 495px;
-  height: 245px;
+  width: 373px;
+  height: 12px;
+  margin-bottom: 10px;
 }
 input:focus {
-  width: 495px;
-  height: 45px;
+  width: 368px;
+  height: 12px;
+}
+textarea {
+  width: 373px;
+  height: 173px;
+}
+textarea:focus {
+  width: 368px;
+  height: 173px;
 }
 
 input:focus,
 textarea:focus {
   border-left: 5px solid #355b82;
-  background-color: #00c4c4;
+  background-color: #01adad;
   outline: none;
-  opacity: none;
+  opacity: 1;
   font-weight: 700;
   transition: all 0.4s;
 }
@@ -93,5 +87,27 @@ textarea:focus {
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #fff;
-  font-size: 20px;
+  font-size: 12px;
+}
+
+footer {
+  display: block;
+  color: #b9b9b9;
+  font-size: 12px;
+  background-color: #262626;
+  margin: 94px auto;
+  padding: 15px 15px;
+}
+footer p {
+  display: inline-block;
+}
+footer p:nth-last-of-type(2) {
+  padding-right: 243px;
+}
+footer p:last-child {
+  padding-left: 271px;
+}
+.love {
+  font-weight: 700;
+  color: #ff2b58;
 }
